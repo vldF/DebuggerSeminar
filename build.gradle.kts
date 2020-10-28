@@ -11,6 +11,7 @@ repositories {
 }
 dependencies {
     testImplementation(kotlin("test-junit"))
+    implementation("com.google.code.gson:gson:2.8.5")
 }
 tasks.withType<KotlinCompile>() {
     kotlinOptions.jvmTarget = "1.8"
