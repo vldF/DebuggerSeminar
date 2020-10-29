@@ -15,7 +15,7 @@ fun sin(x: Double, eps: Double): Double {
     var degree = 1
     var factorial = 1
 
-    while (abs(term) >= eps) {
+    while (term >= eps) {
         result += term
         factorial *= (degree + 1) * (degree + 2)
         degree += 2
